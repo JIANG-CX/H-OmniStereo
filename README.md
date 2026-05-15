@@ -1,10 +1,11 @@
 # <div align = "center"><img src="figure/logo.png" alt="image-20200927095842317" width="5%" height="5%" /> H-OmniStereo: </div>
 
-## <div align = "center">Zero-Shot Omnidirectional Stereo Matching with Heading-Aligned Normal Priors</div>
+### <div align = "center">Zero-Shot Omnidirectional Stereo Matching with Heading-Aligned Normal Priors</div>
 
 <div align="center">
 <a href="https://arxiv.org/abs/2605.14963"><img src="https://img.shields.io/badge/ArXiv-2605.14963-da282a.svg"/></a>
 </div>
+
 
 > [Chenxing Jiang](https://jiang-cx.github.io/), Zhe Tong, Pusen Gao, Peize Liu, Yang Xu, Chuan Fang, Ping Tan, [Shaojie Shen †](https://uav.hkust.edu.hk/group/)
 
@@ -31,5 +32,5 @@ If you find our work useful, please consider citing:
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2605.14963}, 
-}
+}If you find our work useful, please consider citing:
 ```
