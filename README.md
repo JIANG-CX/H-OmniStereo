@@ -32,5 +32,5 @@ If you find our work useful, please consider citing:
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2605.14963}, 
-}If you find our work useful, please consider citing:
+}
 ```
