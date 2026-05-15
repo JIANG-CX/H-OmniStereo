@@ -1,4 +1,4 @@
-# <div align = "center"><img src="figure/logo.png" alt="image-20200927095842317" width="8%" height="8%" /> H-OmniStereo: </div>
+# <div align = "center"><img src="figure/logo.png" alt="image-20200927095842317" width="5%" height="5%" /> H-OmniStereo: </div>
 
 ## <div align = "center">Zero-Shot Omnidirectional Stereo Matching with Heading-Aligned Normal Priors</div>
 
