@@ -4,7 +4,9 @@
 
 <div align="center">
 <a href="https://arxiv.org/abs/2605.14963"><img src="https://img.shields.io/badge/ArXiv-2605.14963-da282a.svg"/></a>
+<a href="https://youtu.be/prwpXCU00oE"><img alt="Youtube" src="https://img.shields.io/badge/Video-Youtube-red"/></a>
 </div>
+
 
 > [Chenxing Jiang](https://jiang-cx.github.io/), Zhe Tong, Pusen Gao, Peize Liu, Yang Xu, Chuan Fang, Ping Tan, [Shaojie Shen †](https://uav.hkust.edu.hk/group/)
 
@@ -31,5 +33,5 @@ If you find our work useful, please consider citing:
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2605.14963}, 
-}If you find our work useful, please consider citing:
+}
 ```
