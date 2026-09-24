@@ -1,0 +1,35 @@
+{
+  "default_dataset": "threeD60",
+  "datasets": {
+    "threeD60": {
+      "root": "data/3D60",
+      "split": "test_index.txt",
+      "image_size": [512, 256],
+      "force_2_to_1": true
+    },
+    "threeD60warp": {
+      "root": "data/3D60_Warp_new0413",
+      "split": "test_index.txt",
+      "image_size": [512, 256],
+      "force_2_to_1": true
+    },
+    "mvsgi": {
+      "root": "data/MVS_GI_Warp",
+      "split": "test_index.txt",
+      "image_size": [512, 512],
+      "force_2_to_1": false
+    },
+    "ours": {
+      "root": "data/HOmniStereo",
+      "split": "no_glass_test_index_full.txt",
+      "image_size": [1024, 512],
+      "force_2_to_1": false
+    },
+    "deep360": {
+      "root": "data/Deep360",
+      "split": "test_index.txt",
+      "image_size": [1024, 512],
+      "force_2_to_1": false
+    }
+  }
+}

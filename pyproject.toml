@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h-omnistereo"
+version = "0.1.0"
+description = "Inference and full-dataset evaluation for H-OmniStereo"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = {file = "LICENSE"}
+dependencies = [
+  "torch==2.4.1",
+  "torchvision==0.19.1",
+  "xformers==0.0.28.post1",
+  "timm==1.0.22",
+  "opencv-python-headless==4.12.0.88",
+  "numpy==2.2.6",
+  "Pillow==12.0.0",
+  "imageio==2.37.2",
+  "tqdm==4.67.1",
+  "einops==0.8.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0,<9"]
+dev = ["pytest>=8.0,<10", "ruff>=0.11,<0.12"]
+
+[tool.setuptools.packages.find]
+include = ["homnistereo*"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "licenses/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
